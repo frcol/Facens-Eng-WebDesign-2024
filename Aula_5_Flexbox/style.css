@@ -1,0 +1,36 @@
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cat {
+    border: 5px solid #25fc09;
+}
+
+.camel {
+    border: 5px solid #ddd318;
+}
+
+.horse {
+    border: 5px solid #ee0b0b;;
+}
+
+.animais {
+    display: flex;
+    height: 97vh;
+    
+    width: 50%;
+   flex-wrap: wrap;
+   align-content: center;
+   background-color: aqua;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
