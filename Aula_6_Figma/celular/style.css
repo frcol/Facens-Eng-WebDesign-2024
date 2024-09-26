@@ -4,35 +4,40 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.imgCel {
+    width: 492px;
+}
+
+.main_esq {
+    width: 520px;
+    margin-top: 60px;
+    margin-right: 98px;
+}
+
 h1 {
-    font-family: "Red Rose", serif;
+    font-family: "Red Rose", system-ui;
     font-size: 36px;
     font-style: normal;
     color: #091133;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", system-ui;
     font-size: 16px;
-    font-style: normal;
     color: #6F7CB2;
-    margin-top: 16px;
     text-align: justify;
+    margin-top: 16px;
+    line-height: 26px;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-.main_dir {
-    width: 520px;
-    margin-top: 60px;
-    margin-right: 98px;
-}
-
-.main_dir_botton {
+.main_esq_baixo {
     display: flex;
     justify-content: center;
     margin-top: 52px;
@@ -42,23 +47,23 @@ main {
     width: 190px;
     height: 36px;
     background-color: #111B47;
-    border: 2px solid #111B47;
-
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    border: 1px solid #111B47;
     color: white;
-}
-
-.btn:hover {
-    cursor: pointer;
-    background-color: white;
-    color: #111B47;
+    font-family: "Roboto", system-ui;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .btnWhite {
     background-color: white;
     color: #111B47;
+    margin-left: 29px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #111B47;
+    cursor: pointer;
 }
 
 .btnWhite:hover {
@@ -66,7 +71,3 @@ main {
     color: white;
 }
 
-.vertImg {
-    width: 492px;
-
-}
