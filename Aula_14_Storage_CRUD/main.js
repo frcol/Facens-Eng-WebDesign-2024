@@ -3,7 +3,10 @@ document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault();
 });
 
-//localStorage.clear();
+// localStorage.clear();
+//localStorage.removeItem('login');
+//localStorage.removeItem('senha');
+
 
 let loginElement = document.querySelector('#login');
 let senhaElement = document.querySelector('#senha');

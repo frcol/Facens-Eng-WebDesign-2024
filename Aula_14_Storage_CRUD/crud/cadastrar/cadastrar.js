@@ -1,3 +1,4 @@
+// Form não recarregar a página
 document.querySelector('#myForm').addEventListener('submit', function(event) {
     event.preventDefault();
 });
