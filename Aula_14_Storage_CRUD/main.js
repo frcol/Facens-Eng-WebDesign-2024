@@ -4,6 +4,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
 });
 
 //localStorage.clear();
+
 let loginElement = document.querySelector('#login');
 let senhaElement = document.querySelector('#senha');
 

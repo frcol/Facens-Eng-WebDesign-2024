@@ -46,7 +46,8 @@ function atualizar() {
         },
         body: JSON.stringify(animal)
     })
-    .then(() => window.location.href = '../index.html');
+    .then(() => window.location.href = '../index.html')
+    .catch(error => console.error('Error:', error));
 }
 
 // ==================================================
